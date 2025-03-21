@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:trace4eu.github.io:trace4eu-dpp-interop-did-web",
+  "verificationMethod": [
+    {
+      "id": "did:web:trace4eu.github.io:trace4eu-dpp-interop-did-web#signingKey",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:trace4eu.github.io:trace4eu-dpp-interop-did-web",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "5MoDtf926uKub5az4zTzSXn2B2KPwb4o33IlWn6R5No"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:trace4eu.github.io:trace4eu-dpp-interop-did-web#signingKey"
+  ],
+  "assertionMethod": [
+    "did:web:trace4eu.github.io:trace4eu-dpp-interop-did-web#signingKey"
+  ]
+}
+
